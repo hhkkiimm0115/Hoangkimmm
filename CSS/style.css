@@ -1,0 +1,234 @@
+
+.header{
+    padding: 12px 0;
+}
+.nav ul{
+    list-style: none;
+}
+.nav li{
+    margin: 0 20px;
+}
+.nav li a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav li a:hover{
+    opacity:0.8;
+}
+.feature-logo{
+    width: 30px;
+    height: 50px;
+}
+.feature-logo img {
+    overflow: hidden;
+    height: 100%;}
+
+body{
+        scroll-behavior: smooth;
+    }
+
+ #banner-lon{
+            background-image: url(../IMG/matthew-henry-kX9lb7LUDWc-unsplash.jpg);
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #banner-lon i{
+            color: white;
+            padding: 10px;
+        }
+        
+        @keyframes chayxuong{
+            0%{
+                transform: translate(0,0);
+            }
+            50%{
+                transform: translate(0,40px);
+            }
+            100%{
+                transform: translate(0,0);
+            }
+        }
+        .nutxuong{
+            animation: chayxuong 3s infinite;
+        }
+
+    #banner-lon h1 {
+        color:white !important;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        padding: 50px;
+        text-align: center
+    }
+    footer a{
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    footer p{
+        font-size: 10px;
+    }
+    .icontron{
+        color: black;
+    }
+    .iconhinh {
+    color: white}
+    #contact input, textarea{
+        width: 100%;
+        padding: 5px 5px;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+    #contact button{
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 20px;
+        background-color: transparent;
+    }
+    #contact{
+        padding: 50px 200px;
+    }
+    #portfolio{
+        text-align: center;
+        padding-top: 50px;
+    }
+    .tabcontent img{
+        width: 100%;
+    }
+    .tabcontent img:hover{
+        box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.23);
+    }
+
+    .tab {
+      overflow: hidden;
+    }
+    .tabcontent {
+      animation: fadeEffect 2s; 
+    }
+    
+  
+    @keyframes fadeEffect {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+ 
+    .tab button {
+      background-color: inherit;
+    
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+    }
+    
+  
+    .tab button:hover {
+      background-color: gray;
+    }
+    
+  
+    .tab button.active {
+      background-color: #ccc;
+    }
+    
+    
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+    }
+
+    .banner{
+        height: 800px;
+        background-image: url("../IMG/dominik-lange-Lej_oqHljbk-unsplash.jpg");
+        background-size: cover;
+    }
+    .content-banner{
+        text-align: left;
+        color:white;
+    }
+    .content-banner p{
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+    .button{
+        padding: 8px 32px;
+        text-decoration: none;
+        color: white;
+        border: solid 1px white;}
+    .button:hover{
+        background-color: white;
+        color:black;
+    }
+
+    .content-banner h1 {color:white;
+    padding-bottom: 20px}
+
+    .banner-2{
+        background-color: black;
+    }
+    .box{
+        height: 500px;
+        width: 300px;
+    }
+    .container h1{
+        color:white;
+        text-align: center;
+        padding: 50px;
+    
+    }.container-2{
+        width: 300px;
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        margin:0 auto;
+    }
+    
+    .feature{
+        overflow: hidden;
+    }
+    .feature img{
+        height: 100%;
+        width: 350px;
+    }
+    .content{
+    position: absolute;
+    display:flex;
+    flex-wrap: wrap;  
+    /* z-index: 10;   */
+    color:white;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 0;
+    overflow:hidden;
+    justify-content:flex-start;
+    align-items: center;
+    }
+    .banner-2-content{
+        text-align: left;
+        padding: 20px;
+    }
+    .banner-2-content h2{
+        margin-top: 5px;
+        margin-bottom: 3px;
+        font-size: 30px;
+        color:white;
+    }
+    .banner-2-content span{
+        font-size: 10px;}
+        /* margin-top: 10px; */
+    
+    .container-2:hover .content {
+        width: 300px;
+    }
+
+    #skill{
+        background-color: #f5f5f5;
+        padding: 90px 128px;
+    }
